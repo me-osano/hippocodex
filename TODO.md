@@ -46,7 +46,7 @@ Core constraint for every phase: **BM25 retrieval, extractive quote-only answers
 - [ ] Issue/PR templates
 - [ ] Disclaimer text draft (“study aid, not clinical or legal advice”)
 - [ ] 💡 Short “Why Hippocodex?” page: quote-only answers, cite or stay silent, no models
-- [ ] ⚠️ Decide Tauri app identifier before shipping (currently `app.hippocodex.viewer`)
+- [x] ✅ Tauri app identifier set to `io.github.me-osano.hippocodex`
 
 ---
 
@@ -274,7 +274,7 @@ Core constraint for every phase: **BM25 retrieval, extractive quote-only answers
 - [ ] Encrypted backup/export and restore
 - [ ] Threat model updated per phase; dependency audit; fuzz extractors (PDF/HTML parsers)
 - [ ] Sandbox untrusted parsing where practical
-- [ ] ⚠️ Confirm Tauri app identifier (`app.hippocodex.viewer` is provisional)
+- [x] ✅ Tauri app identifier confirmed as `io.github.me-osano.hippocodex`
 
 ### Accessibility and i18n
 - [ ] Screen reader + keyboard-only pass
@@ -322,7 +322,7 @@ Core constraint for every phase: **BM25 retrieval, extractive quote-only answers
 | 5 | Language scope at v1 | English only · multilingual | | |
 | 6 | Monetization | free core + ? | | |
 | 7 | Android bundle transport | USB file copy · shared folder · local sync | | |
-| 8 | Tauri app identifier | `app.hippocodex.viewer` · new id | | |
+| 8 | Tauri app identifier | `app.hippocodex.viewer` · `io.github.<handle>.hippocodex` | `io.github.me-osano.hippocodex` | 2026-11-18 |
 
 ---
 
